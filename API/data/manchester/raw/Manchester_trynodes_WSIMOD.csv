@@ -1,0 +1,91 @@
+node,parameter,value,unit
+Tame (Source to Chew Brook),downstream_id,Tame (Chew Brook to Swineshaw Brook),-
+Tame (Source to Chew Brook),type,catchment,-
+Chew Brook,downstream_id,Tame (Chew Brook to Swineshaw Brook),-
+Chew Brook,type,catchment,-
+Tame (Chew Brook to Swineshaw Brook),downstream_id,Tame (Swineshaw Brook to Mersey),-
+Tame (Chew Brook to Swineshaw Brook),type,catchment,-
+Tame (Swineshaw Brook to Mersey),downstream_id,Mersey (upstream of Manchester Ship Canal),-
+Tame (Swineshaw Brook to Mersey),type,catchment,-
+Wilson Brook,downstream_id,Tame (Swineshaw Brook to Mersey),-
+Wilson Brook,type,catchment,-
+Etherow (Source to Woodhead Reservoir),downstream_id,Etherow (Woodhead Res. to Glossop Bk.),-
+Etherow (Source to Woodhead Reservoir),type,catchment,-
+Heyden Brook,downstream_id,Etherow (Woodhead Res. to Glossop Bk.),-
+Heyden Brook,type,catchment,-
+Crowden Great Brook,downstream_id,Etherow (Woodhead Res. to Glossop Bk.),-
+Crowden Great Brook,type,catchment,-
+Etherow (Woodhead Res. to Glossop Bk.),downstream_id,Etherow (Glossop Brook to Goyt),-
+Etherow (Woodhead Res. to Glossop Bk.),type,catchment,-
+Glossop (Shelf) Brook (Source to Long Clough Brook),downstream_id,Long Clough Brook,-
+Glossop (Shelf) Brook (Source to Long Clough Brook),type,catchment,-
+Hurst Brook,downstream_id,Glossop (Shelf) Brook (Source to Long Clough Brook),-
+Hurst Brook,type,catchment,-
+Long Clough Brook,downstream_id,Glossop Brook (Long Clough Brook to Etherow),-
+Long Clough Brook,type,catchment,-
+Glossop Brook (Long Clough Brook to Etherow),downstream_id,Etherow (Glossop Brook to Goyt),-
+Glossop Brook (Long Clough Brook to Etherow),type,catchment,-
+Etherow (Glossop Brook to Goyt),downstream_id,Goyt (Etherow to Mersey),-
+Etherow (Glossop Brook to Goyt),type,catchment,-
+Goyt (Source to Randall Carr Brook),downstream_id,Goyt (Randall Carr Brook to Sett).,-
+Goyt (Source to Randall Carr Brook),type,catchment,-
+Todd Brook,downstream_id,Goyt (Randall Carr Brook to Sett).,-
+Todd Brook,type,catchment,-
+Randall Carr Brook,downstream_id,Goyt (Randall Carr Brook to Sett).,-
+Randall Carr Brook,type,catchment,-
+Black Brook (Upper Mersey),downstream_id,Goyt (Randall Carr Brook to Sett).,-
+Black Brook (Upper Mersey),type,catchment,-
+Goyt (Randall Carr Brook to Sett).,downstream_id,Goyt (Sett to Etherow),-
+Goyt (Randall Carr Brook to Sett).,type,catchment,-
+Sett,downstream_id,Goyt (Sett to Etherow),-
+Sett,type,catchment,-
+Goyt (Sett to Etherow),downstream_id,Goyt (Etherow to Mersey),-
+Goyt (Sett to Etherow),type,catchment,-
+Goyt (Etherow to Mersey),downstream_id,Mersey (upstream of Manchester Ship Canal),-
+Goyt (Etherow to Mersey),type,catchment,-
+Poise Brook,downstream_id,Goyt (Etherow to Mersey),-
+Poise Brook,type,catchment,-
+Bollin (Source to Dean),downstream_id,Bollin (River Dean to Ashley Mill),-
+Bollin (Source to Dean),type,catchment,-
+Dean (Lamaload to Bollington),downstream_id,Dean (Bollington to Bollin),-
+Dean (Lamaload to Bollington),type,catchment,-
+Dean (Bollington to Bollin),downstream_id,Bollin (River Dean to Ashley Mill),-
+Dean (Bollington to Bollin),type,catchment,-
+Harrop Brook,downstream_id,Dean (Bollington to Bollin),-
+Harrop Brook,type,catchment,-
+Bollin (River Dean to Ashley Mill),downstream_id,Bollin (Ashley Mill to Manchester Ship Canal),-
+Bollin (River Dean to Ashley Mill),type,catchment,-
+Mobberley Brook,downstream_id,Birkin Brook - Mobberley Brook to River Bollin (including Rostherne Brook),-
+Mobberley Brook,type,catchment,-
+Sugar Brook,downstream_id,Birkin Brook - Mobberley Brook to River Bollin (including Rostherne Brook),
+Sugar Brook,type,catchment,
+Birkin Brook - Source to Mobberley Brook,downstream_id,Birkin Brook - Mobberley Brook to River Bollin (including Rostherne Brook),-
+Birkin Brook - Source to Mobberley Brook,type,catchment,-
+Birkin Brook - Mobberley Brook to River Bollin (including Rostherne Brook),downstream_id,Bollin (Ashley Mill to Manchester Ship Canal),-
+Birkin Brook - Mobberley Brook to River Bollin (including Rostherne Brook),type,catchment,-
+Bollin (Ashley Mill to Manchester Ship Canal),downstream_id,Mersey/ Manchester Ship Canal  (Irwell/Manchester Ship Canal to Bollin),-
+Bollin (Ashley Mill to Manchester Ship Canal),type,catchment,-
+Micker (Norbury) Brook,downstream_id,Micker Brook,-
+Micker (Norbury) Brook,type,catchment,-
+Micker Brook,downstream_id,Mersey (upstream of Manchester Ship Canal),-
+Micker Brook,type,catchment,-
+Poynton Brook,downstream_id,Micker Brook,-
+Poynton Brook,type,catchment,-
+Mersey (upstream of Manchester Ship Canal),downstream_id,Mersey/ Manchester Ship Canal  (Irwell/Manchester Ship Canal to Bollin),-
+Mersey (upstream of Manchester Ship Canal),type,catchment,-
+Platt Brook (Source to Fallowfield Bk),downstream_id,Chorlton Brook (Princess Parkway to Mersey),-
+Platt Brook (Source to Fallowfield Bk),type,catchment,-
+Fallowfield Brook,downstream_id,Chorlton Brook (Princess Parkway to Mersey),-
+Fallowfield Brook,type,catchment,-
+Chorlton Brook (Princess Parkway to Mersey),downstream_id,Mersey (upstream of Manchester Ship Canal),-
+Chorlton Brook (Princess Parkway to Mersey),type,catchment,-
+Mersey/ Manchester Ship Canal  (Irwell/Manchester Ship Canal to Bollin),downstream_id,river-waste,-
+Mersey/ Manchester Ship Canal  (Irwell/Manchester Ship Canal to Bollin),type,catchment,-
+Timperley Brook,downstream_id,Sinderland Brook,
+Timperley Brook,type,catchment,
+Sinderland Brook (Fairywell Bk and Baguley Bk),downstream_id,Sinderland Brook,
+Sinderland Brook (Fairywell Bk and Baguley Bk),type,catchment,
+Sinderland Brook,downstream_id,Mersey/ Manchester Ship Canal  (Irwell/Manchester Ship Canal to Bollin),
+Sinderland Brook,type,catchment,
+river-waste,downstream_id,outlet,
+river-waste,type,outlet,

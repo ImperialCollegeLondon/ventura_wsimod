@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4396" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Etherow at Bottoms Reservoir", "node_type": "FlowGauge", "gauge_number": 69004 }, "geometry": { "type": "Point", "coordinates": [ -1.9668189, 53.470631 ] } },
+{ "type": "Feature", "properties": { "name": "Bollin at Dunham Massey", "node_type": "FlowGauge", "gauge_number": 69006 }, "geometry": { "type": "Point", "coordinates": [ -2.412377, 53.383929 ] } },
+{ "type": "Feature", "properties": { "name": "Mersey at Ashton Weir", "node_type": "FlowGauge", "gauge_number": 69007 }, "geometry": { "type": "Point", "coordinates": [ -2.3440949, 53.438347 ] } },
+{ "type": "Feature", "properties": { "name": "Bollin at Wilmslow", "node_type": "FlowGauge", "gauge_number": 69012 }, "geometry": { "type": "Point", "coordinates": [ -2.2271401, 53.330116 ] } },
+{ "type": "Feature", "properties": { "name": "Etherow at Compstall", "node_type": "FlowGauge", "gauge_number": 69015 }, "geometry": { "type": "Point", "coordinates": [ -2.0580181, 53.413706 ] } },
+{ "type": "Feature", "properties": { "name": "Goyt at Marple Bridge", "node_type": "FlowGauge", "gauge_number": 69017 }, "geometry": { "type": "Point", "coordinates": [ -2.0560657, 53.404916 ] } },
+{ "type": "Feature", "properties": { "name": "Mersey at Brinksway", "node_type": "FlowGauge", "gauge_number": 69028 }, "geometry": { "type": "Point", "coordinates": [ -2.1749171, 53.407012 ] } },
+{ "type": "Feature", "properties": { "name": "Bollin at Bollington Mill Total", "node_type": "FlowGauge", "gauge_number": 69045 }, "geometry": { "type": "Point", "coordinates": [ -2.406563, 53.379644 ] } }
+]
+}
