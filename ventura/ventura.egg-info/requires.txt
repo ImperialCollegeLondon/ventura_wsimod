@@ -1,0 +1,10 @@
+Fiona
+Flask
+flask_cors
+geopandas
+numpy
+pandas
+pyproj
+pytest
+Shapely
+tqdm

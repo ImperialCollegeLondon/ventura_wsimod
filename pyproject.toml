@@ -3,9 +3,9 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "wsimod"
+name = "ventura"
 version = "0.1.0"
-description = "WSIMOD (old)"
+description = "Ventura + WSIMOD (old)"
 authors = [{name = "Your Name", email = "your.email@example.com"}]
 license = {file = "LICENSE"}
 readme = "README.md"
@@ -15,15 +15,12 @@ classifiers = [
 ]
 dependencies = ["Fiona",
                 "Flask",
+                "flask_cors",
                 "geopandas",
                 "numpy",
                 "pandas",
                 "pyproj",
+                "pytest",
                 "Shapely",
                 "tqdm",
                 ]
-
-
-[tool.setuptools.packages.find]
-where = ["API"]
-include = ["wsimod.*"]
