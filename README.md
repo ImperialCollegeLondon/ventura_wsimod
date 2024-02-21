@@ -4,7 +4,7 @@ This repository contains the code for an old version of WSIMOD, data and a wrapp
 ## Install
 - Download repo
 - Navigate to directory
-- `pip install .`
+- `pip install -e .`
 
 ## Test
 - Navigate to directory
