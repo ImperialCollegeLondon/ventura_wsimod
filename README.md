@@ -1,5 +1,5 @@
 # ventura_wsimod
-This repository contains the code for an old version of WSIMOD used in the VENUTRA project
+This repository contains the code for an old version of WSIMOD, data and a wrapper to call the manchester model, and the Flask app used in the VENUTRA project
 
 ## Install
 - Download repo
