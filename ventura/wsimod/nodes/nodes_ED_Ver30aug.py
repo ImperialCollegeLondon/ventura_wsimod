@@ -436,7 +436,7 @@ class Node(WSIObj):
         
         if len(self.in_arcs) == 1:
             #If only one out_arc, just send the water down that
-            if of_type == None:
+            if of_type is None:
                 pulled = next(iter(self.in_arcs.values())).send_pull_request(vqip, tag = tag)
             elif any([x in of_type for x, y in self.in_arcs_type.items() if len(y) > 0]):
                 pulled = next(iter(self.in_arcs.values())).send_pull_request(vqip, tag = tag)
@@ -478,7 +478,7 @@ class Node(WSIObj):
         
         if len(self.out_arcs) == 1:
             #If only one out_arc, just send the water down that
-            if of_type == None:
+            if of_type is None:
                 not_pushed_ = next(iter(self.out_arcs.values())).send_push_request(vqip, tag = tag)
             elif any([x in of_type for x, y in self.out_arcs_type.items() if len(y) > 0]):
                 not_pushed_ = next(iter(self.out_arcs.values())).send_push_request(vqip, tag = tag)

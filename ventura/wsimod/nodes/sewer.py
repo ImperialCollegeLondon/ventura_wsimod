@@ -131,7 +131,7 @@ class EnfieldFoulSewer(Sewer):
             
             
             sent_to_exchange = self.v_change_vqip(self.sewer_tank.active_storage, exchange_v - remaining['volume'])
-            sent_to_exchange_ = self.sewer_tank.pull_storage(sent_to_exchange)
+            self.sewer_tank.pull_storage(sent_to_exchange)
             
             
         remaining = self.push_distributed(self.sewer_tank.active_storage,

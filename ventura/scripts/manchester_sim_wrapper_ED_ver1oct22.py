@@ -460,7 +460,6 @@ def sim(x, nodes, arcs, land_node_info, input_dict,dates=DefaultSimDates,wwtp_no
 
 
     #enablePrint()#maybe commented out?
-    mb_e = False
     for date in tqdm(dates):
     # for date in dates:
         #Tell every node what day it is
@@ -478,7 +477,7 @@ def sim(x, nodes, arcs, land_node_info, input_dict,dates=DefaultSimDates,wwtp_no
         #Discharge sewers (pushed to other sewers or WWTW)
         for node in nodedict_type['foul']:
             if node.name=='centralised_sewer':
-                flag=1 #basically do nothing
+                pass #basically do nothing
             node.make_discharge()
         for node in nodedict_type['storm']:
             node.make_discharge()
@@ -536,7 +535,6 @@ def sim(x, nodes, arcs, land_node_info, input_dict,dates=DefaultSimDates,wwtp_no
                 if (in_10 - ds_10 - out_10) > constants.FLOAT_ACCURACY:
                 #VK changed the below (was the legacy of catchwat) to above on Barney's advise late Aug 22
                 #if (sys_in[v] - sys_ds[v] - sys_out[v]) > constants.FLOAT_ACCURACY:
-                    mb_e = True
                     print("system mass balance error for " + v + " of " + str(sys_in[v] - sys_ds[v] - sys_out[v]))
 
         #Store results

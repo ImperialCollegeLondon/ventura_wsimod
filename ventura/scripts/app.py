@@ -542,7 +542,7 @@ def callWSIMODfromFlaskEnhanced(subcatchment_change = None, new_runoff_coef = No
             catchmentsForDemandChange, NewPerCapitaDemand, PopulationGrowth)
 
     ManFlows=flows.pivot(index='time', columns='arc',values='flow')
-    ManTanks=tanks.pivot(index='time', columns='node',values='storage')
+    tanks.pivot(index='time', columns='node',values='storage')
     ###start insertion by VK on 20 Jul
     ManRiverFlows=pd.DataFrame()
     for item in arcs.name:
@@ -640,7 +640,7 @@ def callWSIMODfromFlask(subcatchment_change = None, new_runoff_coef = None,
     flows,tanks = msw.sim(x, nodes, arcs, land_node_info, input_dict,dates,wwtp_node_info,
                           subcatchment_change, new_runoff_coef, catchmentsForPopulationChange,PopulationChange)
     ManFlows=flows.pivot(index='time', columns='arc',values='flow')
-    ManTanks=tanks.pivot(index='time', columns='node',values='storage')
+    tanks.pivot(index='time', columns='node',values='storage')
     ###start insertion by VK on 20 Jul
     ManRiverFlows=pd.DataFrame()
     for item in arcs.name:

@@ -249,7 +249,8 @@ class RuralLand(Node):
 
         self.mass_balance_ds = []
         for i in range(0, self.no_HRUs):
-            l = lambda i = i : self._mass_balance_ds[i].ds()
+            def l(i=i):
+                return self._mass_balance_ds[i].ds()
             self.mass_balance_ds.append(l)
         self.mass_balance_ds.append(lambda : self.runoff_storage.ds())
         self.mass_balance_ds.append(lambda : self.recharge_storage.ds()) 
