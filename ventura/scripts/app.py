@@ -1,8 +1,7 @@
 
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, request, jsonify
 from flask_cors import CORS
 import json
-import time
 import ast
 #import sys
 import os
@@ -262,37 +261,4 @@ def callWSIMODfromFlaskEnhanced(subcatchment_change = None, new_runoff_coef = No
     #return ManRiverFlows, ManWWTPdischargeFlows, ManSewerFlows, ManStormdischargeFlows#old Oct version
     return ManFlowsDemand2foul, ManRiverNitrate, ManRiverAmmonia, ManRiverP,tanks, ManRiverFlows, ManWWTPdischargeFlows,\
         ManSewerFlows, ManStormdischargeFlows, ManFoulToStormFlows, ManLandToOutletFlows, ManExcessWater
-
-
-def input_to_int(data):
-    #edited by VK in Jan 2023
-    if len(data)>=1:
-        data_string = data.split(",")
-        data_return = []
-        for i in data_string:
-            data_return.append(int(i))
-
-    else:
-        data_return=[]
-    return data_return
-
-def input_to_float(data):
-    if len(data)>=1:
-        data_string = data.split(",")
-        data_return = []
-        for i in data_string:
-            data_return.append(float(i))
-        return data_return
-    else:
-        return []
-
-def prepare(listofdata):
-    data = str(listofdata[0])
-    for i in range (1,len(listofdata)):
-        data=data + ',' + str(listofdata[i])
-    return(data )
-
-
-
-
 
