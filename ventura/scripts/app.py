@@ -63,7 +63,7 @@ def GetDictToAPIreturnWSIMODenhanced():
     file_name = f"ui_call_{timestamp}.json"
 
     # File path to save the JSON data
-    file_dir = Path().cwd().parent / 'data' / 'ui_calls'
+    file_dir = Path(__file__).parent.parent / 'data' / 'ui_calls'
     file_dir.mkdir(parents=True, exist_ok=True)
     file_path = file_dir / file_name
 
